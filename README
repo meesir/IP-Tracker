@@ -6,5 +6,8 @@ To use this you must have sendemail installed [sudo apt-get install sendemail]
 IP is checked via web API - https://www.ipify.org/
 
 I set a cron job to run the script, if there's no change in IP nothing happens,
-if there is a change of IP an email is sent via gmail to me letting me know the new IP.  The file .myIp is also updated with the new IP address.
+if there is a change of IP an email is sent via gmail to me letting me know the new IP.  
+The file .myIp is also updated with the new IP address.
 
+This is currently boilerplated for gmail as the sender, you can use whatever smtp server
+you wish!
